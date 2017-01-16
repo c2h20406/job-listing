@@ -22,6 +22,7 @@
     background-color: #212121;//背景颜色
     border-color: #212121;//边框色
     margin-bottom: 0;//底部 margin 不撑开距离
+    font-size: 26px;
 }
 
 @media (min-width: 768px) {
@@ -33,7 +34,8 @@
 .navbar-default .navbar-brand {
    color: #EF6C00;//字体颜色
    padding: 10px 15px;//上下10px,左右15px
-   line-height: 30px;//文字行高
+   font-size: 26px;
+   
 }
 
 .navbar-default .navbar-brand:hover,
@@ -80,7 +82,7 @@
 
 .title {
   background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
-  max-width: 600px;//最大宽度
+  max-width: 400px;//最大宽度
   margin: 200px auto 20px auto;//和顶部拉开距离
   
   border-top-right-radius: 3px;//右上角圆边
@@ -96,7 +98,7 @@
 }
 
 .jumbotron p {
-    margin: 0;//上下左右margin为0
+    margin: 0 auto;//上下左右margin为0
     font-size: 26px;//字体大小
     max-width: 600px;//最大宽度
     background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
@@ -141,11 +143,10 @@
 }
 
 .jumbotron {
-  background-image:url('https://ww1.sinaimg.cn/large/006tNc79jw1fbsgulb22hj315o0vv78w.jpg');
+  background-image:url('https://ww3.sinaimg.cn/large/006tNc79jw1fbsogownnqj31hc0v00vr.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
-  
 }
 
 
@@ -158,7 +159,8 @@
 }
 
 .lead {
-  margin-bottom: 60px;
+  
+  margin: 10px auto 60px auto;
   text-align: center;
   color: white;
 }
