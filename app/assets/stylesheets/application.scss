@@ -32,7 +32,7 @@
 }
 
 .navbar-default .navbar-brand {
-   color: #EF6C00;//字体颜色
+   color: #FAFAFA;//字体颜色
    padding: 10px 15px;//上下10px,左右15px
    font-size: 26px;
    
@@ -45,7 +45,7 @@
 }
 
 .navbar-default .navbar-nav > li > a{
-  color: #EF6C00;
+  color: #FAFAFA;
 }
 
 .navbar-default .navbar-nav > li > a:hover,
@@ -76,7 +76,7 @@
 
 .container-fluid .jumbotron{
   padding-bottom: 110px;//内部的底部边距，这样按钮不会很靠近底部了
-  margin: 0 -15px 20px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
+  margin: 0 -15px;//顶部margin为0，因此可以直接接着导航栏；左右margin为负15，因此可以顶到浏览器的边缘（抵消 container-fluid 的 15px 左右padding);底部margin为20，会跟下面的内容撑开距离
   border-radius: 0;//圆角为0
 }
 
@@ -93,7 +93,7 @@
 
 .jumbotron h1, .jumbotron .h1 {
     text-align: center;//文字左对齐
-    color: #222;	//字体颜色
+    color: #212121;	//字体颜色
     padding: 25px 50px;
 }
 
@@ -104,7 +104,7 @@
     background-color: rgba(250, 250, 250, 0.39);//背景颜色含透明度
     padding: 20px;//上下左右padding为20px
     text-align:center;//文字左对齐
-    color: #222;//字体颜色
+    color: #424242;//字体颜色
     border-bottom-right-radius: 3px;//右下角圆边
     border-bottom-left-radius: 3px;//左下角圆边
 
@@ -143,7 +143,7 @@
 }
 
 .jumbotron {
-  background-image:url('https://ww1.sinaimg.cn/large/006tNc79jw1fbsp81v6lmj31kw16oqgf.jpg');
+  background-image:url('https://ww2.sinaimg.cn/large/006tNc79jw1fbtdl90uffj31hc0zkb0i.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 110px;
@@ -165,14 +165,6 @@
   color: white;
 }
 
-.caption {
-  margin: 30px;
-  text-align: center;
-  top: 20px;
-}
 
-.thumbnail {
-    border: 0 none;
-    box-shadow: none;
-    margin-top: 60px;
-}
+
+
